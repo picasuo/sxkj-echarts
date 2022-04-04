@@ -1,0 +1,9 @@
+.*
+*.yml
+config/
+dist/
+node_modules/
+test/
+example/
+*.config.js
+*.py

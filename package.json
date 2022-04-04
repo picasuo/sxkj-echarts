@@ -1,0 +1,68 @@
+{
+  "name": "sxkj-echarts",
+  "version": "1.13.38",
+  "description": "SXKJ Echarts Components",
+  "private": false,
+  "main": "lib/sxEcharts.js",
+  "scripts": {
+    "serve": "webpack-dev-server --config ./config/base.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --env.production --config ./config/base.js",
+    "lib": "webpack --progress --config ./config/lib.js",
+    "lint": "eslint ./src --fix",
+    "fab": "fab run_208 publish_208 -f ./publish.py"
+  },
+  "keywords": [
+    "vue",
+    "echarts"
+  ],
+  "author": "liweiquan",
+  "license": "ISC",
+  "peerDependencies": {
+    "echarts": ">4.0.0",
+    "vue": ">2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "prismjs": "^1.17.1",
+    "sass-loader": "^8.0.0",
+    "terser-webpack-plugin": "^2.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.1.0",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.1",
+    "vue-router": "^3.1.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "@babel/runtime-corejs2": "^7.6.0",
+    "echarts": "^5.1.2",
+    "install": "^0.13.0",
+    "lodash": "^4.17.15"
+  }
+}

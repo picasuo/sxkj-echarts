@@ -1,0 +1,71 @@
+.charts-tooltip {
+  background: $color-white;
+
+  .charts-title {
+    font-family: $default-font-family;
+    font-size: $sm-font-size;
+    color: $color-black-light;
+    letter-spacing: 0.98px;
+    text-align: left;
+  }
+  .charts-content {
+    background: #f0f4fa;
+    border-radius: 2px;
+    padding: 8px 15px;
+  }
+  .charts-item {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    &__icon {
+      border-radius: 1px;
+      width: $sm-font-size;
+      height: $sm-font-size;
+      background: #5ab1ef;
+    }
+    &__title {
+      font-family: $default-font-family;
+      font-size: $sm-font-size;
+      color: $color-gray-drak;
+      letter-spacing: 0.75px;
+      flex: 1;
+      text-align: left;
+      margin: 0 35px 0 10px;
+    }
+    &__data {
+      align-self: flex-end;
+      font-family: $default-font-family;
+      font-size: $sm-font-size;
+      color: $color-gray-drak;
+      text-align: right;
+      letter-spacing: 0.75px;
+    }
+  }
+}
+
+.sankey-tooltip {
+  background: $color-white;
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #4a4a4a;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 14px;
+
+  &__icon {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: #4883fb;
+  }
+
+  &__path {
+    font-size: 12px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin: 0 30px 0 5px;
+  }
+}
