@@ -1,6 +1,6 @@
-# awesome-echarts
+# sxkj-echarts
 
-awesome-echarts 是一套基于 Vue2.x 封装的 Echarts 图表组件，用于为开发者提供快速生成图表的服务。
+sxkj-echarts 是一套基于 Vue2.x 封装的 Echarts 图表组件，用于为开发者提供快速生成图表的服务。
 
 1. 使用前可以先参考测试网站的用例
 2. 如果想要参与代码贡献，请阅读贡献文档
